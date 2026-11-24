@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="106" viewBox="0 0 288 106" fill="none" role="img" aria-label="Sabrina Luiza Melo - Co-Founder">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="288" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111824"/>
+      <stop offset="100%" stop-color="#1A2438"/>
+    </linearGradient>
+    <clipPath id="fc"><rect x="1" y="1" width="286" height="104" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+  </style>
+  <g clip-path="url(#fc)">
+    <rect x="1" y="1" width="286" height="104" rx="14" fill="url(#fbg)"/>
+    <rect x="1" y="1" width="4" height="104" fill="#2A6865"/>
+  </g>
+  <rect x="1" y="1" width="286" height="104" rx="14" stroke="#2A3954" stroke-width="1.2"/>
+
+  <circle cx="42" cy="53" r="22" fill="rgba(58, 140, 138, 0.16)" stroke="#2A6865" stroke-width="1.4"/>
+  <text x="42" y="58.5" text-anchor="middle" class="sans" font-size="14" font-weight="800" fill="#6CE0C8">SM</text>
+
+  <text x="76" y="38" class="sans" font-size="15.5" font-weight="800" fill="#FAF7F2">Sabrina Luiza Melo</text>
+  <text x="76" y="56" class="mono" font-size="10.5" font-weight="700" fill="#6CE0C8">CO-FOUNDER</text>
+
+  <rect x="76" y="68" width="20" height="18" rx="4" fill="#2A6865"/>
+  <text x="86" y="80.5" text-anchor="middle" class="sans" font-size="10.5" font-weight="800" fill="#FAF7F2">in</text>
+  <text x="103" y="80.5" class="mono" font-size="10.5" fill="#8FA2B8">@sabrinaluizamelo ↗</text>
+</svg>

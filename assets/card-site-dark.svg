@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="152" viewBox="0 0 436 152" fill="none" role="img" aria-label="Site Oficial &amp; Lista Beta">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="436" y2="152" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111824"/>
+      <stop offset="100%" stop-color="#1A2438"/>
+    </linearGradient>
+    <clipPath id="cc"><rect x="1" y="1" width="434" height="150" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    @keyframes pd { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.85)} }
+    @keyframes pr { 0%{r:4;opacity:.75} 100%{r:10;opacity:0} }
+    .d { animation: pd 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .r { animation: pr 2.2s ease-out infinite; }
+  </style>
+  <g clip-path="url(#cc)">
+    <rect x="1" y="1" width="434" height="150" rx="14" fill="url(#cbg)"/>
+    <rect x="1" y="1" width="434" height="3.5" fill="#3A8C8A"/>
+  </g>
+  <rect x="1" y="1" width="434" height="150" rx="14" stroke="#2A3954" stroke-width="1.2"/>
+  <circle cx="26" cy="28" r="4" fill="#3A8C8A" class="r"/>
+  <circle cx="26" cy="28" r="4" fill="#3A8C8A" class="d"/>
+  <text x="38" y="32" class="mono" font-size="10.5" font-weight="700" fill="#6CE0C8">NO AR · LANDING PAGE</text>
+  <text x="414" y="32" text-anchor="end" class="mono" font-size="11" font-weight="700" fill="#8FA2B8">ACESSAR ↗</text>
+
+  <text x="22" y="63" class="sans" font-size="18.5" font-weight="800" fill="#FAF7F2">Site Oficial &amp; Lista Beta</text>
+  <text x="22" y="86" class="sans" font-size="12.5" fill="#8FA2B8">Conheça a visão do AlagouAI? 2.0, nossa identidade visual,</text>
+  <text x="22" y="104" class="sans" font-size="12.5" fill="#8FA2B8">o radar conceitual de São Paulo e acompanhe o lançamento.</text>
+
+  <g transform="translate(22, 118)">
+    <rect x="0" y="0" width="144" height="22" rx="6" fill="rgba(58, 140, 138, 0.16)"/>
+    <text x="72" y="14.5" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#6CE0C8">HTTPS · CLOUDFLARE</text>
+    <rect x="152" y="0" width="144" height="22" rx="6" fill="#131C2B" stroke="#2A3954" stroke-width="1"/>
+    <text x="224" y="14.5" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#D5DFEA">DARK &amp; LIGHT MODE</text>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" fill="none" role="img" aria-label="Pipeline Tech for Tech do AlagouAI? 2.0">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="900" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F2ECE1"/>
+    </linearGradient>
+    <linearGradient id="flowGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2A6865"/>
+      <stop offset="50%" stop-color="#6CE0C8"/>
+      <stop offset="100%" stop-color="#F1DCC3"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    @keyframes dashFlow { to { stroke-dashoffset: -28; } }
+    @keyframes stagePulse { 0%,100%{stroke-opacity:.35} 50%{stroke-opacity:1} }
+    .flow { stroke-dasharray: 6 8; animation: dashFlow 1.4s linear infinite; }
+    .s1 { animation: stagePulse 4s ease-in-out 0s infinite; }
+    .s2 { animation: stagePulse 4s ease-in-out 1s infinite; }
+    .s3 { animation: stagePulse 4s ease-in-out 2s infinite; }
+    .s4 { animation: stagePulse 4s ease-in-out 3s infinite; }
+  </style>
+
+  <rect x="1" y="1" width="898" height="188" rx="16" fill="url(#pbg)" stroke="#DFD7C8" stroke-width="1.2"/>
+  <text x="26" y="29" class="mono" font-size="10.5" font-weight="700" fill="#2A6865">TECH FOR TECH · FLUXO CONCEITUAL DE DADOS E INTELIGÊNCIA</text>
+  <text x="874" y="29" text-anchor="end" class="mono" font-size="10" fill="#5C6B82">EVENT-DRIVEN · AWS CLOUD</text>
+
+  <!-- Animated flow connectors -->
+  <line x1="214" y1="106" x2="246" y2="106" stroke="#2A6865" stroke-width="2.2" class="flow"/>
+  <polygon points="244,101 253,106 244,111" fill="#2A6865"/>
+
+  <line x1="436" y1="106" x2="468" y2="106" stroke="#2A6865" stroke-width="2.2" class="flow"/>
+  <polygon points="466,101 475,106 466,111" fill="#2A6865"/>
+
+  <line x1="658" y1="106" x2="690" y2="106" stroke="#2A6865" stroke-width="2.2" class="flow"/>
+  <polygon points="688,101 697,106 688,111" fill="#2A6865"/>
+
+  <!-- Stage 1 -->
+  <g transform="translate(24, 46)">
+    <rect width="190" height="122" rx="12" fill="#FFFFFF" stroke="#2A6865" stroke-width="1.3" class="s1"/>
+    <text x="14" y="24" class="mono" font-size="10" font-weight="700" fill="#2A6865">01 · INGESTÃO</text>
+    <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#1F2A44">Fontes de Dados</text>
+    <text x="14" y="70" class="sans" font-size="11.5" fill="#5C6B82">Clima oficial, previsão</text>
+    <text x="14" y="86" class="sans" font-size="11.5" fill="#5C6B82">contínua, relevo urbano</text>
+    <text x="14" y="102" class="sans" font-size="11.5" fill="#5C6B82">e relatos da comunidade.</text>
+  </g>
+
+  <!-- Stage 2 -->
+  <g transform="translate(254, 46)">
+    <rect width="182" height="122" rx="12" fill="#FFFFFF" stroke="#2A6865" stroke-width="1.3" class="s2"/>
+    <text x="14" y="24" class="mono" font-size="10" font-weight="700" fill="#2A6865">02 · GEOESPACIAL</text>
+    <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#1F2A44">Malha Urbana</text>
+    <text x="14" y="70" class="sans" font-size="11.5" fill="#5C6B82">Micro-regiões sensíveis</text>
+    <text x="14" y="86" class="sans" font-size="11.5" fill="#5C6B82">a drenagem, várzeas</text>
+    <text x="14" y="102" class="sans" font-size="11.5" fill="#5C6B82">e acúmulo de água.</text>
+  </g>
+
+  <!-- Stage 3 -->
+  <g transform="translate(476, 46)">
+    <rect width="182" height="122" rx="12" fill="#FFFFFF" stroke="#2A6865" stroke-width="1.3" class="s3"/>
+    <text x="14" y="24" class="mono" font-size="10" font-weight="700" fill="#2A6865">03 · MOTOR IA</text>
+    <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#1F2A44">Previsão &amp; Confiança</text>
+    <text x="14" y="70" class="sans" font-size="11.5" fill="#5C6B82">Probabilidades calibradas,</text>
+    <text x="14" y="86" class="sans" font-size="11.5" fill="#5C6B82">explicabilidade e filtro</text>
+    <text x="14" y="102" class="sans" font-size="11.5" fill="#5C6B82">anti-ruído na nuvem AWS.</text>
+  </g>
+
+  <!-- Stage 4 -->
+  <g transform="translate(698, 46)">
+    <rect width="178" height="122" rx="12" fill="#FFFFFF" stroke="#2A6865" stroke-width="1.3" class="s4"/>
+    <text x="14" y="24" class="mono" font-size="10" font-weight="700" fill="#2A6865">04 · EXPERIÊNCIA</text>
+    <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#1F2A44">App em Tempo Real</text>
+    <text x="14" y="70" class="sans" font-size="11.5" fill="#5C6B82">Mapa preditivo, alertas</text>
+    <text x="14" y="86" class="sans" font-size="11.5" fill="#5C6B82">proativos e rotas mais</text>
+    <text x="14" y="102" class="sans" font-size="11.5" fill="#5C6B82">seguras para o usuário.</text>
+  </g>
+</svg>

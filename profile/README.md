@@ -1,102 +1,134 @@
 <div align="center">
-  <br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/logo-icon-white.png" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/logo-icon-teal.png" />
-    <img src="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/logo-icon-teal.png" alt="AlagouAI? Ícone" height="60" />
-  </picture>
-  &nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/logo-wordmark-white.png" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/logo-wordmark-navy.png" />
-    <img src="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/logo-wordmark-navy.png" alt="AlagouAI?" height="42" />
-  </picture>
 
-  <h3>Antecipe a chuva. Se proteja em São Paulo.</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/hero-light.svg" />
+  <img alt="AlagouAI? 2.0 — Inteligência Climática Urbana em São Paulo" src="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/hero-dark.svg" width="100%" />
+</picture>
 
-  <p>
-    <strong>Inteligência climática urbana</strong> que combina monitoramento meteorológico, leitura geoespacial do relevo e validação comunitária para prever riscos de alagamento horas antes — ajudando pessoas a planejar trajetos, cuidar da rotina e chegar em segurança.
-  </p>
+<br />
 
-  <p>
-    <a href="https://alagou-ai-web.alagouai.workers.dev">
-      <img src="https://img.shields.io/badge/Site_Oficial-alagou--ai--web-2A6865?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Site Oficial" />
-    </a>
-    <img src="https://img.shields.io/badge/Foco-São_Paulo_•_BR-3A8C8A?style=for-the-badge" alt="São Paulo" />
-    <img src="https://img.shields.io/badge/Cloud-AWS-1F2A44?style=for-the-badge&logo=amazonwebservices&logoColor=F1DCC3" alt="AWS" />
-    <img src="https://img.shields.io/badge/Versão-2.0_em_construção-4F7263?style=for-the-badge" alt="Versão 2.0" />
-  </p>
+[![Site Oficial](https://img.shields.io/badge/🌐_Site_Oficial-2A6865?style=flat-square)](https://alagou-ai-web.alagouai.workers.dev)
+[![Produto](https://img.shields.io/badge/💧_O_Produto-3A8C8A?style=flat-square)](#produto)
+[![Tech for Tech](https://img.shields.io/badge/⚡_Tech_for_Tech-1F2A44?style=flat-square)](#tech-for-tech)
+[![Fontes de Dados](https://img.shields.io/badge/🛰️_Dados_&_AWS-4F7263?style=flat-square)](#dados-aws)
+[![Equipe](https://img.shields.io/badge/👥_Co--Founders-2A6865?style=flat-square)](#equipe)
+[![English](https://img.shields.io/badge/🇬🇧_English_Version-33415C?style=flat-square)](#english)
+
 </div>
 
 ---
 
-## Sobre o AlagouAI?
+<a id="produto"></a>
 
-Em São Paulo, a maioria das pessoas só descobre que uma via alagou quando já está parada no trânsito ou presa em uma área de risco. O **AlagouAI?** nasceu como um projeto acadêmico e evoluiu para a **geração 2.0** com um objetivo direto: **sair do aviso reativo e entregar inteligência preditiva acessível na palma da mão**.
+## 💧 AlagouAI? 2.0 — Antecipação antes da chuva cair
 
-- **Antecipação de risco (+24h):** leitura contínua de janelas futuras de chuva e vulnerabilidade local.
-- **Precisão por micro-regiões:** análise sensível à geografia real da cidade — diferenciando topos de morro, várzeas e áreas próximas a córregos.
-- **Alertas proativos & trajetos mais seguros:** monitoramento de endereços favoritos e apoio à decisão antes de sair de casa.
-- **Comunidade com alta confiabilidade:** colaboração em tempo real filtrada por camadas de validação para reduzir ruído e falsos alarmes.
+Em São Paulo, a maioria das pessoas só descobre que uma via alagou quando já está parada no trânsito ou presa em uma área de risco. O **AlagouAI?** nasceu de um projeto acadêmico e evoluiu para a geração **2.0** com um objetivo claro: **transformar dados climáticos, geográficos e comunitários em decisões simples e antecipadas que protejam pessoas e sua rotina**.
+
+<p align="center">
+  <a href="https://alagou-ai-web.alagouai.workers.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/card-site-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/card-site-light.svg" /><img alt="Site Oficial e Lista Beta — AlagouAI?" src="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/card-site-dark.svg" width="424" /></picture></a>&nbsp;&nbsp;<a href="#tech-for-tech"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/card-cloud-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/card-cloud-light.svg" /><img alt="Engenharia 2.0 e Nuvem AWS — AlagouAI?" src="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/card-cloud-dark.svg" width="424" /></picture></a>
+</p>
+
+<details>
+<summary><b>💡 Clique para explorar o que muda na experiência AlagouAI? 2.0</b></summary>
+
+<br />
+
+| Frente do Produto | O que entregamos para quem vive São Paulo |
+| :--- | :--- |
+| **⏱ Antecipação de Risco (+24h)** | Leitura contínua das próximas janelas de chuva e saturação do solo para agir antes de sair de casa. |
+| **🗺️ Precisão por Micro-Regiões** | Análise sensível à geografia real da cidade — diferenciando topos de morro, várzeas e áreas próximas a córregos. |
+| **🔔 Alertas Proativos & Rotas** | Monitoramento de endereços favoritos (casa, trabalho, faculdade) e apoio para escolher trajetos mais seguros. |
+| **🛡️ Comunidade Validada** | Relatos em tempo real filtrados por camadas automáticas de consistência para reduzir ruído e falsos alarmes. |
+
+</details>
 
 ---
 
-## Tech for Tech — Como pensamos a engenharia
+<a id="tech-for-tech"></a>
 
-Nossa arquitetura foi desenhada para equilibrar **rigor científico, baixa latência e resiliência em picos de temporal**, sem depender de uma única fonte isolada de informação.
+## ⚡ Tech for Tech — Como funciona por baixo dos panos
 
-```mermaid
-flowchart LR
-    A["Fontes Climáticas, Relevo & Comunidade"] --> B["Malha Geoespacial Urbana"]
-    B --> C["Motor Preditivo & Camada de Confiança"]
-    C --> D["Mapa, Alertas & Rotas no App"]
+Nossa engenharia equilibra **rigor científico, baixa latência e resiliência em picos de temporal**, sem depender de uma única fonte isolada de informação:
 
-    style A fill:#1F2A44,stroke:#3A8C8A,color:#FAF7F2
-    style B fill:#2A6865,stroke:#F1DCC3,color:#FAF7F2
-    style C fill:#3A8C8A,stroke:#F1DCC3,color:#FAF7F2
-    style D fill:#4F7263,stroke:#F1DCC3,color:#FAF7F2
-```
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/pipeline-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/pipeline-light.svg" />
+    <img alt="Fluxo Conceitual Tech for Tech — AlagouAI? 2.0" src="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/pipeline-dark.svg" width="100%" />
+  </picture>
+</div>
 
-### De onde vêm os dados
+<a id="dados-aws"></a>
+
+<details open>
+<summary><b>🛰️ De onde vêm os dados (as 4 camadas do motor)</b></summary>
+
+<br />
 
 | Camada de Dados | Papel no Sistema |
 | :--- | :--- |
-| **Monitoramento Oficial de Clima & Ocorrências** | Consolida histórico de eventos críticos e leituras meteorológicas contínuas da capital paulista para ancorar o contexto real da cidade. |
-| **Previsão Meteorológica Contínua** | Alimenta horizontes futuros com projeções de intensidade de chuva, volume acumulado e sinais de saturação do solo. |
-| **Topografia & Hidrologia Urbana** | Incorpora dados públicos de relevo, elevação e rede de drenagem natural para entender onde a água tende a escoar ou acumular. |
-| **Sinal Comunitário Validado** | Relatos rápidos enviados por pessoas em campo ajudam a confirmar o cenário ao vivo e sinalizar quando a via volta a ficar transitável. |
+| **Monitoramento Oficial de Clima & Ocorrências** | Consolida histórico de pontos críticos e leituras meteorológicas oficiais de São Paulo para ancorar o modelo na realidade da cidade. |
+| **Previsão Meteorológica Contínua** | Alimenta horizontes futuros com intensidade prevista de chuva, volume acumulado e sinais de saturação do solo. |
+| **Topografia & Hidrologia Urbana** | Incorpora dados públicos de relevo, elevação e proximidade de córregos para entender onde a água tende a escoar ou acumular. |
+| **Validação Comunitária em Campo** | Relatos rápidos enviados por usuários ajudam a confirmar cenários ao vivo e indicar quando uma via volta a ficar transitável. |
 
-### Pilares arquiteturais
+</details>
 
-- **Infraestrutura em Nuvem (AWS):** estamos construindo o ecossistema em nuvem **AWS**, priorizando serviços gerenciados, arquitetura desacoplada orientada a eventos e elasticidade automática para suportar picos repentinos de demanda durante tempestades.
-- **Grade Geoespacial Contínua:** em vez de alertas genéricos por zonas gigantes, estruturamos a cidade em células geográficas uniformes que cruzam histórico, relevo e chuva em tempo real.
-- **IA Preditiva Calibrada & Explicável:** nossos modelos combinam variáveis climáticas e espaciais com foco em **calibração de probabilidade** (menos falsos alarmes), avaliação contínua de qualidade e tradução clara dos principais fatores por trás de cada alerta.
-- **Camada de Confiança Anti-Ruído:** todo relato comunitário passa por verificações automáticas de consistência geográfica, contexto climático e confirmação colaborativa antes de ganhar peso no mapa.
-- **Experiência Mobile First:** novo aplicativo multiplataforma (iOS & Android) projetado do zero para leitura imediata sob estresse, modo claro/escuro e bom desempenho mesmo em conexões móveis instáveis.
+<details>
+<summary><b>☁️ Pilares de Engenharia &amp; Nuvem AWS</b></summary>
+
+<br />
+
+- **Infraestrutura em Nuvem AWS:** todo o ecossistema está sendo estruturado na **Amazon Web Services (AWS)** com arquitetura modular, orientada a eventos e elasticidade automática para absorver picos repentinos de acesso em dias de temporal.
+- **Separação de Domínios:** pipelines de ingestão e modelagem desacoplados dos serviços voltados à experiência do aplicativo mobile e alertas proativos.
+- **IA Preditiva Calibrada & Explicável:** foco em probabilidades calibradas (menos falsos alarmes), avaliação contínua de qualidade e tradução clara dos principais fatores por trás de cada alerta em linguagem humana.
+- **Camada de Confiança Anti-Ruído:** validação cruzada automática (geolocalização, contexto climático e confirmação entre usuários) antes de qualquer relato ganhar peso no mapa.
+- **Mobile First (iOS & Android):** aplicativo multiplataforma desenvolvido com foco em leitura rápida sob estresse, modo claro/escuro e bom desempenho em redes móveis instáveis.
+
+</details>
+
+<details>
+<summary><b>🧭 Propósito — Missão, Visão e Valores</b></summary>
+
+<br />
+
+- **Missão:** transformar dados climáticos, geográficos e comunitários em decisões simples e antecipadas que protejam pessoas e sua rotina diante de chuvas extremas.
+- **Visão:** tornar-se referência em inteligência preventiva para eventos climáticos urbanos no Brasil, começando pela consolidação em São Paulo.
+- **Valores:** rigor científico sem "technês" · transparência e explicabilidade · privacidade *by design* · impacto real na vida urbana.
+
+</details>
 
 ---
 
-## Propósito
+<a id="equipe"></a>
 
-| | |
-| :--- | :--- |
-| **Missão** | Transformar dados climáticos, geográficos e comunitários em decisões simples e antecipadas que protejam pessoas e sua rotina diante de chuvas extremas. |
-| **Visão** | Tornar-se a referência em inteligência preventiva para eventos climáticos urbanos no Brasil, começando pela consolidação em São Paulo. |
-| **Valores** | Rigor científico sem "technês" • Transparência e explicabilidade • Privacidade by design • Impacto real na vida urbana. |
+## 👥 Equipe Fundadora
 
----
+Clique em qualquer cartão para conectar no **LinkedIn** e conversar sobre o projeto, testes do Beta ou parcerias:
 
-## Equipe Fundadora
-
-| | | |
-| :---: | :---: | :---: |
-| **Gabriel Pinto**<br /><sub>Co-Founder</sub><br /><a href="https://www.linkedin.com/in/gabrielpintoo/">LinkedIn ↗</a> | **Sabrina Luiza Melo**<br /><sub>Co-Founder</sub><br /><a href="https://www.linkedin.com/in/sabrinaluizamelo/">LinkedIn ↗</a> | **Jhonathan Lima**<br /><sub>Co-Founder</sub><br /><a href="https://www.linkedin.com/in/jhonathanllima/">LinkedIn ↗</a> |
+<p align="center">
+  <a href="https://www.linkedin.com/in/gabrielpintoo/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/founder-gabriel-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/founder-gabriel-light.svg" /><img alt="Gabriel Pinto — Co-Founder" src="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/founder-gabriel-dark.svg" width="276" /></picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sabrinaluizamelo/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/founder-sabrina-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/founder-sabrina-light.svg" /><img alt="Sabrina Luiza Melo — Co-Founder" src="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/founder-sabrina-dark.svg" width="276" /></picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/jhonathanllima/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/founder-jhonathan-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/founder-jhonathan-light.svg" /><img alt="Jhonathan Lima — Co-Founder" src="https://raw.githubusercontent.com/ALAGOU-AI-TCC/.github/main/assets/founder-jhonathan-dark.svg" width="276" /></picture></a>
+</p>
 
 ---
 
-<div align="center">
-  <sub>
-    Conheça mais sobre o projeto e acompanhe o Beta em
-    <a href="https://alagou-ai-web.alagouai.workers.dev"><strong>alagou-ai-web.alagouai.workers.dev</strong></a>
-  </sub>
-</div>
+<a id="english"></a>
+
+## 🌐 English Version
+
+<details>
+<summary><b>🇬🇧 Click here to read about AlagouAI? 2.0 in English</b></summary>
+
+<br />
+
+### AlagouAI? 2.0 — Urban Climate Intelligence for São Paulo
+
+**AlagouAI?** combines official weather monitoring, continuous meteorological forecasts, urban terrain hydrology, and community validation to predict flood risks hours ahead — helping people plan safer routes and protect their daily routines across São Paulo, Brazil.
+
+- **Data Fusion:** integrates official municipal climate/incident signals, high-resolution weather forecasts, public topography/drainage layers, and validated crowd reports.
+- **Tech for Tech & AWS Cloud:** built on **AWS** with a modular, event-driven architecture designed to scale smoothly during severe storm spikes, pairing geospatial micro-region analysis with calibrated, explainable predictive AI and multi-layer anti-noise trust verification.
+- **Live Website:** [alagou-ai-web.alagouai.workers.dev](https://alagou-ai-web.alagouai.workers.dev)
+- **Co-Founders:** [Gabriel Pinto](https://www.linkedin.com/in/gabrielpintoo/) · [Sabrina Luiza Melo](https://www.linkedin.com/in/sabrinaluizamelo/) · [Jhonathan Lima](https://www.linkedin.com/in/jhonathanllima/)
+
+</details>
